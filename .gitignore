@@ -1,0 +1,9 @@
+# 构建产物
+optix_visibility/build/
+
+# Python
+__pycache__/
+*.pyc
+
+# 运行结果缓存
+data/
