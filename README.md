@@ -46,11 +46,9 @@ optix-visibility/
 │   └── visibility_bridge.py   # Python 桥接：OCCT 网格化 / 采样 / spawn exe / GLB 导出
 ├── backend/
 │   └── visibility.ts          # Express 路由（/api/visibility/files|run|result|glb）
-├── frontend/
-│   └── Visibility.tsx         # React 页面：三色 3D 视图 + 面拾取聚焦 + 分组面列表
-└── docs/
+└── frontend/
+    └── Visibility.tsx         # React 页面：三色 3D 视图 + 面拾取聚焦 + 分组面列表
 ```
-
 ## 构建光追程序
 
 ### 前置要求（Windows）
